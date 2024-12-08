@@ -97,7 +97,7 @@ export const dataPortfolio = [
     },
     {
         id: 4,
-        title: "Netflix-clone",
+        title: "Netflix-clone (en proceso)",
         image: "/image-4.jpg",
         urlGithub: "#!",
         urlDemo: "#!",
