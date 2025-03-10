@@ -9,7 +9,7 @@ const Contact = () => {
             <Title title="Contacta conmigo" subtitle="Ponte en contacto conmigo 👋" />
 
             <div className="grid grid-cols-1 md:grid-cols-3 md:gap-7 mt-8">
-                <div>
+                <div className="grid gap-5">
                     {dataContact.map((data) => (
                         <div key={data.id}
                             className="flex flex-col items-center dark:bg-slate-800 rounded-lg mb-5 p-4"
@@ -23,7 +23,7 @@ const Contact = () => {
                         </div>
                     ))}
                 </div>
-                <div className="col-span-2">
+                <div className="md:col-span-2">
                     <ContactForm />
                 </div>
             </div>
